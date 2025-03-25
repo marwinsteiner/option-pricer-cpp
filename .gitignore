@@ -1,0 +1,71 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# IDE specific files
+.idea/
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Dependencies
+/lib/
+/extern/
+/third_party/
+# Except the Eigen directory if you're including it in the repo
+!/extern/eigen/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Code coverage
+*.gcno
+*.gcda
+*.gcov
