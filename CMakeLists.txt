@@ -21,6 +21,11 @@ endif()
 add_library(vanilla_options
         src/models/black_scholes.cpp
         src/pricers/black_scholes_pricer.cpp
+        src/models/normal.cpp
+        src/pricers/normal_pricer.cpp
+        src/models/stochastic_vol_model.cpp
+        src/models/log_normal_sv.cpp
+        src/models/heston_sv.cpp
 )
 
 target_include_directories(vanilla_options
