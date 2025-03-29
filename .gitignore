@@ -72,3 +72,4 @@ Thumbs.db
 
 # Other
 python\pybind11
+python\tests\__pycache__
