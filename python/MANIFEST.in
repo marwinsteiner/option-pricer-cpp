@@ -1,0 +1,21 @@
+include CMakeLists.txt
+include README.md
+include src/*.cpp
+include src/*.h
+
+# Include pybind11 files if present
+recursive-include pybind11 *
+
+# Include C++ source files (using relative paths)
+recursive-include ../src *.cpp *.h
+recursive-include ../include *.h
+
+# Include Eigen if it's in packages directory
+recursive-include ../packages *
+
+# Make sure we include any Eigen files downloaded during build
+recursive-include */eigen *
+recursive-include */eigen-* *
+
+# Include bindings source
+graft src
