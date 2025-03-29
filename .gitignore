@@ -69,3 +69,6 @@ Thumbs.db
 *.gcno
 *.gcda
 *.gcov
+
+# Other
+python\pybind11
